@@ -1,0 +1,49 @@
+body{
+margin: 0;
+padding: 0;
+}
+/* start end-main sertion */
+.end-main{
+        margin: auto;
+}
+.home-content{
+        margin-left: 40px;
+}
+/* end  end-main section */
+
+/* about.html */
+/* start form section */
+.about-form{
+        width: 100%;
+        padding-top: 173px;
+        margin: auto;
+}
+/* end form section */
+
+/* sign.html */
+/* start sign section */
+.sign-form{
+        width: 100%;
+        margin:auto;
+        padding-top: 20px;
+}
+
+@media only screen and(max-width:768px)
+{
+        .form-content{
+                width: 100%;
+                margin: 200px;
+                padding-top: 30px;
+        }
+
+}
+@media only screen and(max-width:768px)
+{
+        .about-content{
+                width: 100%;
+                margin: 200px;
+                padding-top: 100px;
+                
+        }
+
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Book Store</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+<!-- start navbar section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Book Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Literature books
+                </a>
+                <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">satirical literature</a>
+                        <a class="dropdown-item" href="#">
+                                Translated world literature</a>
+                        <a class="dropdown-item" href="#">prose</a>
+                        <a class="dropdown-item" href="#"> Plays</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">More</a>
+                </div>
+                </li>
+                
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Novels and stories
+                </a>
+                <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Adventure novels</a>
+                        <a class="dropdown-item" href="#">Religious novels</a>
+                        <a class="dropdown-item" href="#">Romantic novels</a>
+                        <a class="dropdown-item" href="#">science fiction novels</a>
+                        <a class="dropdown-item" href="#">Horror novels</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">More</a>
+                </div>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+                </li>
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        </div>
+        </nav>
+        <!-- end navbar section  -->
+
+<!-- start header section  -->
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+        <img src="img/pexels-photo-917832.jpeg"  class="d-block w-100" alt="..."  height="520px">
+        <div class="carousel-caption d-sm-block ">
+                <h5>First Online Book store</h5>
+                <p>If You want yo join with us you can fill the form</p>
+                <a href="about.html" target="_blank"><button  class="btn btn-dark my-2  ">Subscribe</button></a>
+                <a href="sign.html" target="_blank"><button  class="btn btn-dark my-2  ">Sign in</button></a>
+        </div>
+        </div>
+
+        <div class="carousel-item">
+        <img src="img/pexels-suzyhazelwood-1098601.jpg" class="d-block w-100" alt="..." height="520px">
+        <div class="carousel-caption  d-md-block title">
+                <h5>Read more</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+        </div>
+        </div>
+
+        <div class="carousel-item">
+        <img src="img/pexels-enginakyurt-2767814.jpg" class="d-block w-100" alt="..." height="520px">
+        <div class="carousel-caption d-sm-block title">
+                <h5>Make your brain work smarter</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+        </div>
+        </div>
+        
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+        </button>
+        </div>
+
+<!-- end header section  -->
+<!-- start main section -->
+<div class="container mt-5 ">
+        <div class="home-content">
+        <div class="row ml-1 content ">
+                <div class=" col-md-4 col-sm-6 ">
+                        <div class="card mt-3" style="width: 18rem;">
+                                <img src="img/a8ee6d49-d62d-4591-bb4a-ca8abd3d1e3b-192X290.webp" class="card-img-top" alt="..." height="300px">
+                                <div class="card-body">
+                                <h5 class="card-title">اماريتا</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi laboriosam aliquam sint delectus</p>
+                                <a href="#" class="btn btn-primary">Download</a>
+                                </div>
+                        </div>
+                </div>
+                <div class=" col-md-4 col-sm-6">
+                        <div class="card mt-3" style="width: 18rem;">
+                                <img src="img/22d0506f-4a93-4cee-8565-a3830628cdf6-192X290.webp" class="card-img-top" alt="..." height="300px">
+                                <div class="card-body">
+                                <h5 class="card-title">تسعة عشر</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi laboriosam aliquam sint delectus</p>
+                                <a href="#" class="btn btn-primary">Download</a>
+                                </div>
+                        </div>
+                </div>
+                <div class=" col-md-4 col-sm-6">
+                        <div class="card mt-3" style="width: 18rem;">
+                                <img src="img/664aee9a-e383-428f-b29e-f3909a27db19-192X290.webp" class="card-img-top" alt="..." height="300px">
+                                <div class="card-body">
+                                <h5 class="card-title">سر الغرفه 207</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro debitis iure vero nostrum!</p>
+                                <a href="#" class="btn btn-primary">Download</a>
+                                </div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="row mt-4 ml-1">
+                <div class="col-md-4 col-sm-6">
+                        <div class="card mt-3" style="width: 18rem;">
+                                <img src="img/49a08bce-8eca-41b0-adbd-db31edeb70a0-192X290.webp" class="card-img-top" alt="..." height="300px">
+                                <div class="card-body">
+                                <h5 class="card-title">الحفره</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt voluptates sint.</p>
+                                <a href="#" class="btn btn-primary">Download</a>
+                                </div>
+                        </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-6">
+                        <div class="card mt-3" style="width: 18rem;">
+                                <img src="img/59834386-dcbc-4edb-96f3-49262de34d9e-192X290.webp" class="card-img-top" alt="..."height="300px">
+                                <div class="card-body">
+                                <h5 class="card-title">Read peaple like a book</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sed mollitia. Quis</p>
+                                <a href="#" class="btn btn-primary">Download</a>
+                                </div>
+                        </div>
+                </div>
+                <div class="  col-md-4 col-sm-6">
+                        <div class="card mt-3" style="width: 18rem;">
+                                <img src="img/da2c710d-fff7-4d49-962d-10c4106817b0-192X290.webp" class="card-img-top" alt="..."height="300px">
+                                <div class="card-body">
+                                <h5 class="card-title">فن اللامبالاة</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsam sunt impedit
+                                        
+                                </p>
+                                <a href="#" class="btn btn-primary">Download</a>
+                                </div>
+                        </div>
+                </div>
+
+        </div>
+
+        <div class="row mt-4 ml-1"> 
+                <div class="col-md-4 col-sm-6">
+                        <div class="card mt-3" style="width: 18rem;">
+                                <img src="img/22d0506f-4a93-4cee-8565-a3830628cdf6-192X290.webp" class="card-img-top" alt="..." height="300px">
+                                <div class="card-body">
+                                <h5 class="card-title">تسعة عشر</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt voluptates sint.</p>
+                                <a href="#" class="btn btn-primary">Download</a>
+                                </div>
+                        </div>
+                </div>
+                <div class=" col-lg-4 col-md-4 col-sm-6">
+                        <div class="card mt-3" style="width: 18rem;">
+                                <img src="img/34286932-1e98-4e67-85ef-656593316c06-192X290.webp" class="card-img-top" alt="..."height="300px">
+                                <div class="card-body">
+                                <h5 class="card-title">عقدك النفسيه سجنك الابدي</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, sed mollitia. Quis</p>
+                                <a href="#" class="btn btn-primary">Download</a>
+                                </div>
+                        </div>
+                </div>
+                <div class="  col-md-4 col-sm-6">
+                        <div class="card mt-3" style="width: 18rem;">
+                                <img src="img/4de5e38c-e227-47cd-a784-241d2f760f1a-192X290.webp" class="card-img-top" alt="..."height="300px">
+                                <div class="card-body">
+                                <h5 class="card-title">انتخريستوس</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsam sunt impedit
+                                        
+                                </p>
+                                <a href="#" class="btn btn-primary">Download</a>
+                                </div>
+                        </div>
+                </div>
+        
+        </div>
+        </div>
+</div>
+<!-- end main section -->
+<!--start footer section  -->
+<section aria-label="Page navigation example" class="end-main">
+        <ul class="pagination justify-content-center mt-4">
+        <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">5</a></li>
+        <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                </a>
+        </li>
+        </ul>
+</section>
+
+
+<footer class="bg-body-tertiary text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+        <!-- Facebook -->
+        <a
+        data-mdb-ripple-init
+                class="btn text-white btn-floating m-1"
+                style="background-color: #3b5998;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-facebook-f"></i
+                ></a>
+
+        <!-- Twitter -->
+        <a
+                data-mdb-ripple-init
+                class="btn text-white btn-floating m-1"
+                style="background-color: #55acee;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-twitter"></i
+        ></a>
+
+        <!-- Google -->
+        <a
+                data-mdb-ripple-init
+                class="btn text-white btn-floating m-1"
+                style="background-color: #dd4b39;"
+                href="#!"
+                role="button"
+        ><i class="fab fa-google"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a
+                data-mdb-ripple-init
+                class="btn text-white btn-floating m-1"
+                style="background-color: #ac2bac;"
+                href="#!"
+                role="button"
+                ><i class="fab fa-instagram"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a
+                data-mdb-ripple-init
+                class="btn text-white btn-floating m-1"
+                style="background-color: #0082ca;"
+                href="#!"
+                role="button"
+        ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <!-- Github -->
+        <a
+                data-mdb-ripple-init
+                class="btn text-white btn-floating m-1"
+                style="background-color: #333333;"
+                href="#!"
+                role="button"
+        ><i class="fab fa-github"></i
+        ></a>
+        </section>
+        <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2024 Copyright:
+                <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+</footer>
+
+
+        <script src="js/jquery.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
